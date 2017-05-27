@@ -1,0 +1,6 @@
+module.exports = {
+  transform_filter(file) {
+    if (file.indexOf('run.js') !== -1) return true;
+    return false;
+  }
+}
